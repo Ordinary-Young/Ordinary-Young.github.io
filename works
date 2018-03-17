@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>作品集</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <p>客户端 <span>APPLICATION</span></p>
+            <img src="images/bg2.jpg">
+        </div>
+        <div class="parallax">
+            <p>这里是介绍</p>
+        </div>
+        <div class="content">
+            <p>启动页 <span>LOADING PAGE</span></p>
+            <img src="images/bg2.jpg">
+        </div>
+        <div class="parallax">
+            <p>这里是介绍</p>
+        </div>
+        <div class="content">
+            <p>电脑端 <span>WEB DESIGN</span></p>
+            <img src="images/bg2.jpg">
+        </div>
+        <div class="parallax">
+            <p>这里是介绍</p>
+        </div>
+        <div class="content">
+            <p>图标 <span>ICONS</span></p>
+            <img src="images/bg2.jpg">
+        </div>
+        <div class="parallax">
+            <p>这里是介绍</p>
+        </div>
+        <div class="content">
+            <p>手绘 <span>HAND DRAWING</span></p>
+            <img src="images/bg2.jpg">
+        </div>
+        <div class="parallax">
+            <p>这里是介绍</p>
+        </div>
+    </div>
+</body>
+</html>
