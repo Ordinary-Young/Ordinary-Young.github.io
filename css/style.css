@@ -70,7 +70,7 @@ a {
   position: absolute;
   background-color: #666666;
   display: block;
-  transition: all 400ms;
+  transition: all 500ms;
 }
 .hover_btn .line1,
 .hover_btn .line3 {
