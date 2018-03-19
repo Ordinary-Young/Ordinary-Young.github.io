@@ -70,7 +70,7 @@ a {
   position: absolute;
   background-color: #666666;
   display: block;
-  transition: all 200ms;
+  transition: all 400ms;
 }
 .hover_btn .line1,
 .hover_btn .line3 {
@@ -131,6 +131,9 @@ a {
 }
 
 
+.index-content{
+  padding-bottom: 5rem;
+}
 .content{
 	max-width: 100rem;
 	margin: auto;
@@ -148,12 +151,12 @@ a {
 
 .parallax{
     height: 40rem;
-    background-image: url(../images/bg.jpg);
+    background-image: url(../images/bg1.jpg);
     background-size: cover;
     background-attachment: fixed;
     font-size: 2rem;
     line-height: 3rem;
-    color: #fff;
+    color: #333;
     display: flex;
     align-items: center;
     justify-content: center;
