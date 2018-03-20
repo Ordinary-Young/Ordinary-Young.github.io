@@ -138,12 +138,9 @@ a {
 	max-width: 100rem;
 	margin: auto;
 }
-.content p{
-	font-size: 3rem;
-	line-height: 4rem;
-}
-.content p span{
-	font-size: 2rem;
+.content .title{
+  width: auto;
+  margin: 20rem 0 12rem;
 }
 .content img{
 	width: 100%;
@@ -164,4 +161,34 @@ a {
 .parallax p{
   max-width: 60rem;
   text-align: center;
+}
+
+.start_page{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.start_page li{
+  width: 30%;
+  margin-bottom: 4rem;
+}
+.start_page li img{
+  border-radius: 2rem;
+  box-shadow: 0 0 2rem rgba(0,0,0,0.3);
+}
+
+.drawing_small{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.drawing_small li{
+  width: 30%;
+  margin-bottom: 8rem;
+  text-align: center;
+}
+.drawing_small li img{
+  height: 24rem;
+  width: auto;
 }
