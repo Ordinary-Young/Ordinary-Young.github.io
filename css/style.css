@@ -335,6 +335,6 @@ a {
 .icon_normal{
 	position: relative;
 }
-.icon_page li:hover{
+.icon_page:hover li{
 	transform: rotateX(180deg);
 }
