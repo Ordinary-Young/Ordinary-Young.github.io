@@ -200,14 +200,14 @@ a {
 
 .app_content{
 	transform-style: preserve-3d;
-    transform: translateX(-0vw) translateY(0px) rotateX(45deg) rotateZ(325deg);
+    transform: translateX(1vw) translateY(0px) rotateX(45deg) rotateZ(325deg);
     display: flex;
     justify-content: space-around;
     margin-top: 10rem;
     width: 150%;
 }
 .app_content ul{
-	width: 18.5%;
+	width: 18%;
 }
 .app_content ul:nth-child(1){
 	margin-top: 0rem;
@@ -225,11 +225,11 @@ a {
 	margin-top: -18rem;
 }
 .app_content ul li{
-	margin-bottom: 2rem;
+	margin-bottom: 4rem;
 	position: relative;
 }
 .app_content ul li img{
-	box-shadow: 0 0 2rem rgba(0,0,0,0.2);
+	box-shadow: 0 0 1.5rem rgba(0,0,0,0.2);
 	position: relative;
 	display: block;
 	z-index: 30;
@@ -242,6 +242,7 @@ a {
 	height: 100%;
 	transition: all .2s;
 	opacity: .4;
+	z-index: 10;
 }
 .layer_green{
 	background: #5debb4;
@@ -291,4 +292,43 @@ a {
     box-shadow: 0 0 20px 10px rgba(0,0,0,0.8);
     -webkit-transform: translateZ(-1px) scale(1);
     transform: translateZ(-1px) scale(1);
+}
+
+
+.icon_page{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	margin-bottom: 4rem;
+}
+.icon_page li{
+	width: 20%;
+	margin: 0 2%;
+	margin-bottom: 2rem;
+	position: relative;
+	border-radius: 1rem;
+	box-shadow: 0 0 1rem rgba(0,0,0,0.1);
+	transition: all .6s;
+	-webkit-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+	text-align: center;
+}
+.icon_page li > div{
+	background: #fff;
+	padding: 1rem 0;
+}
+.icon_page li img{
+	width: 40%;
+}
+.icon_hover{
+	position: absolute;
+	width: 100%;
+	top: 0;
+	transform: perspective(600px) rotateX(180deg);
+}
+.icon_normal{
+	position: relative;
+}
+.icon_page li:hover{
+	transform: rotateX(180deg);
 }
