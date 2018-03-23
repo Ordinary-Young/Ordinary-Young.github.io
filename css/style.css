@@ -55,6 +55,28 @@ a {
 }
 
 
+.nav{
+  box-shadow: 0 1rem 2rem rgba(0,0,0,0.2);
+  text-align: center;
+}
+.nav img{
+  height: 10rem;
+  padding: 2rem 0;
+}
+.bottom{
+  background-color: #000;
+  padding: 5rem 0;
+  color: #fff;
+  font-size: 5rem;
+}
+.bottom_content{
+  max-width: 100rem;
+  text-align: right;
+}
+.bottom img{
+  height: 3rem;
+}
+
 .hover_btn {
   padding: 3rem 0px;
   border: none;
@@ -150,7 +172,7 @@ a {
 .parallax{
     height: 40rem;
     background-image: url(../images/bg1.jpg);
-    background-size: cover;
+    background-size: 100% 100%;
     background-attachment: fixed;
     font-size: 2rem;
     line-height: 3rem;
@@ -334,6 +356,7 @@ a {
 }
 .icon_normal{
 	position: relative;
+  transform: translate3d(0,0,.1rem);
 }
 .icon_page:hover li{
 	transform: rotateX(180deg);
