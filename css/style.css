@@ -76,6 +76,9 @@ a {
 .bottom img{
   height: 3rem;
 }
+.bottom .name{
+  height: 8rem;
+}
 
 .hover_btn {
   padding: 3rem 0px;
