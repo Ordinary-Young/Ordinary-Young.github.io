@@ -72,6 +72,7 @@ a {
 }
 .bottom_content{
   max-width: 100rem;
+  margin: auto;
   text-align: right;
 }
 .bottom img{
