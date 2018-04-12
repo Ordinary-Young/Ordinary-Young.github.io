@@ -370,7 +370,8 @@ a {
 
 .web_page{
 	display: flex;
-	justfy-content: space-between;
+	justify-content: space-between;
+	margin-bottom: 4rem;
 }
 .web_page li{
 	height: 1000px;
