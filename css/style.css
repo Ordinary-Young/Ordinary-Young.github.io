@@ -367,3 +367,11 @@ a {
 .icon_page:hover li{
 	transform: rotateX(180deg);
 }
+
+.web_page{
+	display: flex;
+	justfy-content: space-between;
+}
+.web_page li{
+	height: 1000px;
+}
