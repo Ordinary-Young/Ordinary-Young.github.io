@@ -368,21 +368,15 @@ a {
 	transform: rotateX(180deg);
 }
 
-.web_page,.web_page2{
+.web_page{
 	display: flex;
 	justify-content: space-between;
 }
 .web_page li{
-	height: 1000px;
-	margin-bottom: 3rem;
-}
-.web_page2 li{
+	height: 1200px;
 	margin-bottom: 3rem;
 }
 .web_page li img{
 	width: auto;
 	height: 100%;
-}
-.web_page2 li img{
-	width: 100%;
 }
