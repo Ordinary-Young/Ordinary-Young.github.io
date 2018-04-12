@@ -375,3 +375,7 @@ a {
 .web_page li{
 	height: 1000px;
 }
+.web_page li{
+	width: auto;
+	height: 100%;
+}
