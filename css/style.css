@@ -336,7 +336,14 @@ a {
     -webkit-transform: translateZ(-1px) scale(1);
     transform: translateZ(-1px) scale(1);
 }
-
+.other_style{
+	display: flex;
+	justify-content: space-around;
+	margin-bottom: 4rem;
+}
+.other_style img{
+	width: 30%;
+}
 
 .icon_page{
 	display: flex;
