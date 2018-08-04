@@ -230,6 +230,9 @@ a {
 .drawing_medium{
   margin-bottom: 4rem;
 }
+.drawing_medium{
+  height: 10rem;
+}
 
 
 .app_content{
