@@ -229,9 +229,15 @@ a {
 }
 .drawing_medium{
   margin-bottom: 4rem;
+  display: flex;
+  justify-content: space-between;
+}
+.drawing_medium li{
+  height: 1200px;
 }
 .drawing_medium img{
-  height: 10rem;
+  width: auto;
+  height: 100%;
 }
 
 
