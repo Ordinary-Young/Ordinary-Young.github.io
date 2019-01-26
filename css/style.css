@@ -350,6 +350,13 @@ a {
 .icon_page:hover li{
 	transform: rotateX(180deg);
 }
+.icon_more{
+	display:flex;
+	align-items: center;
+}
+.icon_more img{
+	width: 50%;
+}
 
 .web_page{
 	display: flex;
