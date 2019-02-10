@@ -266,8 +266,13 @@ a {
   box-shadow: 0 0 1.4rem rgba(0,0,0,0.2);
   transform: scale(1.1);
 }
-.rack_page img{
+.rack_page li{
   width: 50%;
+  padding: 2%;
+  box-sizing: border-box;
+}
+.rack_page li img{
+  box-shadow: 0 0 5px rgba(0,0,0,.1);
 }
 .drawing_small{
   display: flex;
