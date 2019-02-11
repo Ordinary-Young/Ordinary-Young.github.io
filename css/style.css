@@ -361,9 +361,10 @@ a {
 .icon_more{
 	display:flex;
 	align-items: center;
+	justify-content: center;
 }
 .icon_more img{
-	width: 50%;
+	width: 60%;
 }
 
 .web_page{
