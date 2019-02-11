@@ -362,9 +362,11 @@ a {
 	display:flex;
 	align-items: center;
 	justify-content: center;
+	flex-wrap: wrap;
 }
 .icon_more img{
 	width: 60%;
+	margin: 2% 0;
 }
 
 .web_page{
