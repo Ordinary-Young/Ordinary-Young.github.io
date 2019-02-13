@@ -112,7 +112,7 @@ a {
   font-size: 5rem;
 }
 .bottom_content{
-  max-width: 100rem;
+  max-width: 1200px;
   margin: auto;
   text-align: right;
 }
@@ -203,7 +203,7 @@ a {
   text-align: center;
 }
 .content{
-	max-width: 100rem;
+	max-width: 1200px;
 	margin: auto;
 	overflow: hidden;
 }
