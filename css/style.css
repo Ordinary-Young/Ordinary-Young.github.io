@@ -288,6 +288,9 @@ a {
   height: 24rem;
   width: auto;
 }
+.drawing_big{
+  margin-bottom: 16px;
+}
 .drawing_gallery{
   column-count: 3;
   column-gap: 8px;
