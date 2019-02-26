@@ -290,7 +290,7 @@ a {
 }
 .drawing_gallery{
   column-count: 3;
-  column-gap: 5%;
+  column-gap: 8px;
   width: 100%;
 }
 .drawing_gallery_item{
