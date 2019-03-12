@@ -265,6 +265,9 @@ a {
   box-shadow: 0 0 .8rem rgba(0,0,0,0.4);
   transition: all .2s;
 }
+.start_page .start_page_width img{
+  box-shadow: none;
+}
 .start_page li:hover img{
   box-shadow: 0 0 1.4rem rgba(0,0,0,0.2);
   transform: scale(1.1);
