@@ -257,6 +257,9 @@ a {
   padding: 0 2%;
   margin: 3rem 0;
 }
+.start_page .start_page_width{
+  width: 42%;
+}
 .start_page li img{
   border-radius: 2rem;
   box-shadow: 0 0 .8rem rgba(0,0,0,0.4);
