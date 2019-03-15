@@ -384,14 +384,17 @@ a {
 }
 
 .web_page{
-	display: flex;
-	justify-content: space-between;
+  column-count: 3;
+  column-gap: 6px;
+  width: 100%;
 }
 .web_page li{
-	height: 1200px;
-	margin-bottom: 3rem;
+  width: 95%;
+  margin-bottom: 16px;
+  transition: opacity .4s ease-in-out; // 检索或设置对象变换时的过渡
+  display: inline-block;
 }
 .web_page li img{
-	width: auto;
-	height: 100%;
+  width: 100%;
+  display: block;
 }
